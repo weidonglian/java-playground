@@ -6,8 +6,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing
-public class PostgresDemoApplication {
+public class RestApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(PostgresDemoApplication.class, args);
+		SpringApplication.run(RestApplication.class, args);
 	}
 }

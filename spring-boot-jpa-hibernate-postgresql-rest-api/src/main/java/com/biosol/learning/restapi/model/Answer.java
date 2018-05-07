@@ -1,7 +1,8 @@
 package com.biosol.learning.restapi.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.*;
 
 @Entity
 @Table(name = "answers")
