@@ -1,7 +1,7 @@
-package com.biosol.learning.springbootsecurityoathu2jwt;
+package com.biosol.learning;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.*;
+import org.springframework.boot.autoconfigure.*;
 
 @SpringBootApplication
 public class SpringBootSecurityOathu2JwtApplication {
@@ -10,3 +10,5 @@ public class SpringBootSecurityOathu2JwtApplication {
 		SpringApplication.run(SpringBootSecurityOathu2JwtApplication.class, args);
 	}
 }
+
+
